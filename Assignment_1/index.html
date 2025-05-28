@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Raj Aryan - Profile</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="theme-toggle">
+    <label>
+      <input type="checkbox" id="theme-switch"/> Toggle Dark Mode
+    </label>
+  </div>
+
+  <div class="cv-container">
+    <aside class="sidebar">
+      <img src="profile.jpeg" alt="Profile Picture" class="profile-pic"/>
+      <section class="contact">
+        <h2>Contact</h2>
+        <p>📞 +91-7061699048</p>
+        <p>📧 rajaryan23@iitk.ac.in</p>
+        <p>📍 Kanpur, Uttar Pradesh, India</p>
+        <p>📸 <a href="https://www.instagram.com/raj_.aryan7" target="_blank">Instagram</a></p>
+        <p>💼 <a href="https://www.linkedin.com/in/raj-aryan-351258293" target="_blank">LinkedIn</a></p>
+      </section>
+
+      <section class="skills">
+        <h2>Skills & Courses</h2>
+        <ul id="skills-list">
+          <li>C</li>
+          <li>C++</li>
+          <li>Python</li>
+          <li>Machine Learning</li>
+          <li>MATLAB</li>
+          <li>HTML</li>
+          <li>JavaScript</li>
+          <li>Thermodynamics</li>
+        </ul>
+        <button onclick="toggleSkills()">Read More</button>
+        <button onclick="editSkills()">Edit</button>
+      </section>
+    </aside>
+
+    <main class="main-content">
+      <h1 id="greeting">Welcome!</h1>
+      <h2>Raj Aryan</h2>
+      <p class="description">
+        I'm Raj Aryan, a second-year undergraduate in the Department of Chemical Engineering at IIT Kanpur. My interests include Competitive Programming, Finance, Machine Learning, and Web Development. Outside academics, you'll often find me on the cricket field or playing chess — two of my favorite ways to unwind and stay sharp.
+      </p>      
+      
+      <section class="hobbies">
+        <h3>Hobbies</h3>
+        <ul>
+          <li>Cricket (Runner-up in Inferno’24 and ICC)</li>
+          <li>Photography</li>
+          <li>Chess</li>
+        </ul>
+      </section>
+
+      <section class="projects">
+        <h3>Projects</h3>
+        <ul>
+          <li><strong>Introduction to Machine Learning</strong> – Implemented regression and classification algorithms, model evaluation, and tuning</li>
+          <li><strong>Gender Cell Website</strong> – Developed inclusive, accessible web platform for IIT Kanpur’s Gender Cell</li>
+          <li><strong>Multimodal Sentiment Analysis</strong> – Used transformer models for cross-modal sentiment classification</li>
+          <li><strong>Option Strategies and Market Analysis</strong> – Backtested trading strategies using derivatives and market data</li>
+        </ul>
+      </section>
+
+      <section class="education">
+        <h3>Education</h3>
+        <ul>
+          <li><strong>IIT Kanpur</strong>, B.Tech in Chemical Engineering – (2023–Present)</li>
+          <li><strong>SRT Public School</strong>, CBSE XII – (2022)</li>
+          <li><strong>The Jaintpur Public School</strong>, CBSE X – (2020)</li>
+        </ul>
+      </section>
+
+      <section class="skills-courses">
+        <h3>Skills & Courses</h3>
+        <ul>
+          <li>C, C++, Python, MATLAB, HTML, JavaScript</li>
+          <li>Libraries: NumPy, Pandas, Matplotlib, Scikit-learn, TensorFlow</li>
+          <li>Tools: GitHub, MS Excel, Jupyter Notebook</li>
+          <li>Courses: ML Specialization (Stanford/Coursera), Linear Algebra, Electronics, Thermodynamics, Fluid Mechanics</li>
+        </ul>
+      </section>
+
+      <section class="positions">
+        <h3>Positions of Responsibility</h3>
+        <ul>
+          <li><strong>Student Guide</strong>, Counselling Service – Mentoring incoming students, orientation coordination</li>
+          <li><strong>Web Secretary</strong>, Gender Cell – Developed website, promoted gender equality initiatives</li>
+          <li><strong>Web Secretary</strong>, Media and Culture Council – Maintained digital presence, published content</li>
+        </ul>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
